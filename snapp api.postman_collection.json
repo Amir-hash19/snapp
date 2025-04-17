@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1736b1c4-98f7-40e0-9dce-051c58d99c4b",
+		"name": "snapp api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43068508"
+	},
+	"item": [
+		{
+			"name": "take-token",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"ali\",\r\n  \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/account/take-token/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"account",
+						"take-token",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
