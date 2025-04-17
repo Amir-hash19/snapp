@@ -1,12 +1,11 @@
 from pathlib import Path
-from .local_settings import SECRET_KEY
 from datetime import timedelta
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
+SECRET_KEY = 'django-insecure-jx8wb2%5^(q#l)#yons*y0u25=vl96c5ydx&b9n*9e^#$i5zp+'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
