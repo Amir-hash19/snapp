@@ -1,5 +1,5 @@
 from pathlib import Path
-from local_settings import *
+from .local_settings import SECRET_KEY
 from datetime import timedelta
 
 
